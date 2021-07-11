@@ -56,7 +56,7 @@ object InMemoryModel extends Model:
     if idStore.keySet.contains(id) then
       idStore -= id
       found = true
-    
+
     found
     
 
@@ -67,7 +67,9 @@ object InMemoryModel extends Model:
     Tags(List.empty)
 
   def tasks(tag: Tag): Tasks =
-    Tasks(idStore)
+    //Retrieve tasks which contain the input tags, use filter method
+    val filteredHashMap = idStore.filter(x => x._2.tags.contains(tag))
+    Tasks(filteredHashMap)
 
   def clear(): Unit =
     idStore.clear()
