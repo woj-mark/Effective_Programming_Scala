@@ -1,0 +1,962 @@
+[0m2021.06.14 21:42:23 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy' for client Visual Studio Code 1.56.2.[0m
+[0m2021.06.14 21:42:24 INFO  time: initialize in 1.18s[0m
+[0m2021.06.14 21:42:24 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.14 21:42:24 WARN  no build target for: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala[0m
+[0m2021.06.14 21:42:27 INFO  running 'C:\Users\User\null\Coursier\cache\jvm\adopt@1.8.0-292\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User\AppData\Local\Temp\metals420543604422287775\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.06.14 21:42:28 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.14 21:42:30 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_292)[0m
+Jun 14, 2021 9:42:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FUser%2FDocuments%2FEffective_Programming_Scala_Course%2FEffective_Programming_Scala%2Fdemocracy%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FUser%2FDocuments%2FEffective_Programming_Scala_Course%2FEffective_Programming_Scala%2Fdemocracy%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4914)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4921)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5137)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$9(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:878)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5111)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:878)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5093)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5099)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5156)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Jun 14, 2021 9:42:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FUser%2FDocuments%2FEffective_Programming_Scala_Course%2FEffective_Programming_Scala%2Fdemocracy%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FUser%2FDocuments%2FEffective_Programming_Scala_Course%2FEffective_Programming_Scala%2Fdemocracy%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4914)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4921)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5137)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$9(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:878)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5111)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:878)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5093)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5099)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5156)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.06.14 21:42:33 INFO  time: code lens generation in 5.92s[0m
+Jun 14, 2021 9:42:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FUser%2FDocuments%2FEffective_Programming_Scala_Course%2FEffective_Programming_Scala%2Fdemocracy%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FUser%2FDocuments%2FEffective_Programming_Scala_Course%2FEffective_Programming_Scala%2Fdemocracy%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4914)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4921)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5137)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$9(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:878)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5111)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:878)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5093)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5099)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5156)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Jun 14, 2021 9:42:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FUser%2FDocuments%2FEffective_Programming_Scala_Course%2FEffective_Programming_Scala%2Fdemocracy%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FUser%2FDocuments%2FEffective_Programming_Scala_Course%2FEffective_Programming_Scala%2Fdemocracy%2Fdemocracy%2Fsrc%2Fmain%2Fscala%2Fdemocracy%2FMajorityJudgement.scala:14: error: expected class or object definition identifier
+enum Grade:
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4914)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4921)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5137)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$9(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5143)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:878)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5111)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:847)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:878)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5093)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5099)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$261.apply(ScalametaParser.scala:5156)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.06.14 21:42:34 INFO  time: code lens generation in 8.94s[0m
+[0m2021.06.14 21:42:35 INFO  [info] loading settings for project democracy-build-build-build from metals.sbt ...[0m
+[0m2021.06.14 21:42:35 INFO  [info] loading project definition from C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\project\project\project[0m
+[0m2021.06.14 21:42:40 INFO  [info] loading settings for project democracy-build-build from metals.sbt ...[0m
+[0m2021.06.14 21:42:40 INFO  [info] loading project definition from C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\project\project[0m
+[0m2021.06.14 21:42:45 INFO  [success] Generated .bloop\democracy-build-build.json[0m
+[0m2021.06.14 21:42:45 INFO  [success] Total time: 4 s, completed 14-Jun-2021 21:42:45[0m
+[0m2021.06.14 21:42:48 INFO  [info] loading settings for project democracy-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+[0m2021.06.14 21:42:48 INFO  [info] loading project definition from C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\project[0m
+[0m2021.06.14 21:42:50 INFO  [success] Generated .bloop\democracy-build.json[0m
+[0m2021.06.14 21:42:50 INFO  [info] compiling 2 Scala sources to C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\project\target\scala-2.12\sbt-1.0\classes ...[0m
+[0m2021.06.14 21:42:59 INFO  [info] done compiling[0m
+[0m2021.06.14 21:42:59 INFO  [success] Total time: 12 s, completed 14-Jun-2021 21:43:00[0m
+[0m2021.06.14 21:43:02 INFO  [info] loading settings for project democracy from assignment.sbt,build.sbt ...[0m
+[0m2021.06.14 21:43:02 INFO  [info] set current project to effective-scala-democracy (in build file:/C:/Users/User/Documents/Effective_Programming_Scala_Course/Effective_Programming_Scala/democracy/democracy/)[0m
+[0m2021.06.14 21:43:02 INFO  [warn] there's a key that's not used by any other settings/tasks:[0m
+[0m2021.06.14 21:43:02 INFO  [warn]  [0m
+[0m2021.06.14 21:43:02 INFO  [warn] * democracy / assignmentVersion[0m
+[0m2021.06.14 21:43:02 INFO  [warn]   +- C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\assignment.sbt:4[0m
+[0m2021.06.14 21:43:02 INFO  [warn]  [0m
+[0m2021.06.14 21:43:02 INFO  [warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check[0m
+[0m2021.06.14 21:43:02 INFO  [warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key[0m
+[0m2021.06.14 21:43:04 INFO  [success] Generated .bloop\democracy.json[0m
+[0m2021.06.14 21:43:04 INFO  [success] Generated .bloop\democracy-test.json[0m
+[0m2021.06.14 21:43:04 INFO  [success] Total time: 1 s, completed 14-Jun-2021 21:43:04[0m
+[0m2021.06.14 21:43:04 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.06.14 21:43:04 INFO  time: ran 'sbt bloopInstall' in 37s[0m
+[0m2021.06.14 21:43:04 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 22936'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy.json'
+[0m[32m[D][0m Missing analysis file for project 'democracy'
+[0m[32m[D][0m Missing analysis file for project 'democracy-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:22936...
+The server is listening for incoming connections at tcp://127.0.0.1:22936...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 21:43:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.14 21:43:05 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0mOpening a bsp server connection with 'bsp --protocol tcp --port 29845'...2021.06.14 21:43:05 INFO 
+ Attempting to connect to the build server...[0m
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32189'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32189...
+The server is listening for incoming connections at tcp://127.0.0.1:32189...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:29845...
+The server is listening for incoming connections at tcp://127.0.0.1:29845...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 21:43:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.14 21:43:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.06.14 21:43:06 INFO  time: Connected to build server in 1.45s[0m
+[0m2021.06.14 21:43:06 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.14 21:43:06 INFO  time: Imported build in 0.1s[0m
+[0m2021.06.14 21:43:08 ERROR jar:file:///C:/Users/User/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/munit_3/0.7.26/munit_3-0.7.26-sources.jar!/munit/internal/MacroCompat.scala:20: error: unclosed character literal
+    '{ new Location(${Expr(path)}, ${Expr(startLine)}) }
+    ^[0m
+[0m2021.06.14 21:43:11 INFO  time: indexed workspace in 5.29s[0m
+[0m2021.06.14 21:43:25 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.14 21:43:25 INFO  time: compiled democracy in 0.57s[0m
+[0m2021.06.14 21:46:21 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.14 21:46:21 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.14 21:46:21 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.14 21:53:44 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.14 21:53:44 INFO  time: compiled democracy in 0.9s[0m
+[0m2021.06.14 21:53:57 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.14 21:53:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.14 21:53:58 INFO  time: compiled democracy in 0.39s[0m
+Jun 14, 2021 9:57:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 702
+[0m2021.06.14 21:59:30 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.14 21:59:30 INFO  time: compiled democracy in 0.59s[0m
+Jun 14, 2021 10:01:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 858
+Jun 14, 2021 10:05:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 987
+[0m2021.06.14 22:06:12 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.14 22:06:12 INFO  time: compiled democracy in 0.8s[0m
+[0m2021.06.14 22:11:17 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.14 22:11:17 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.14 22:11:17 INFO  time: compiled democracy in 0.73s[0m
+[0m2021.06.16 21:20:21 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:20:21 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:20:24 INFO  time: compiled democracy in 2.37s[0m
+[0m2021.06.16 21:27:25 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:27:25 INFO  time: compiled democracy in 0.7s[0m
+[0m2021.06.16 21:31:33 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:31:33 INFO  time: compiled democracy in 0.67s[0m
+[0m2021.06.16 21:31:44 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:31:44 INFO  time: compiled democracy in 0.59s[0m
+[0m2021.06.16 21:33:53 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:33:53 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:33:58 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:36:28 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:36:28 INFO  time: compiled democracy in 0.63s[0m
+[0m2021.06.16 21:37:37 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:37:37 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:37:37 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the build target democracy is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.06.16 21:37:37 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the build target democracy is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.06.16 21:37:37 INFO  time: compiled democracy in 0.65s[0m
+[0m2021.06.16 21:37:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:37:48 INFO  time: compiled democracy in 0.57s[0m
+[0m2021.06.16 21:37:56 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:37:56 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:37:56 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:38:05 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:38:06 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:38:21 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:38:21 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:39:04 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:39:04 INFO  time: compiled democracy in 0.57s[0m
+[0m2021.06.16 21:39:17 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:39:17 INFO  time: compiled democracy in 0.66s[0m
+[0m2021.06.16 21:39:28 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:39:28 INFO  time: compiled democracy in 0.49s[0m
+[0m2021.06.16 21:39:33 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:39:34 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:39:34 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 21:39:37 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:39:37 INFO  time: compiled democracy in 0.46s[0m
+[0m2021.06.16 21:40:51 INFO  C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala:35:33: stale bloop error: Found:    Unit
+Required: democracy.Grade
+    val gradesSize = grades.size
+                                ^[0m
+[0m2021.06.16 21:40:51 INFO  C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala:91:15: stale bloop error: Found:    democracy.Candidate
+Required: Map[democracy.Candidate, Seq[democracy.Grade]]
+    findWinner(gradesPerCandidate)
+              ^[0m
+[0m2021.06.16 21:40:51 INFO  C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala:35:33: stale bloop error: Found:    Unit
+Required: democracy.Grade
+    val gradesSize = grades.size
+                                ^[0m
+[0m2021.06.16 21:40:51 INFO  C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala:91:15: stale bloop error: Found:    democracy.Candidate
+Required: Map[democracy.Candidate, Seq[democracy.Grade]]
+    findWinner(gradesPerCandidate)
+              ^[0m
+[0m2021.06.16 21:42:13 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:42:13 INFO  time: compiled democracy in 0.5s[0m
+[0m2021.06.16 21:42:32 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:42:32 INFO  time: compiled democracy in 0.54s[0m
+[0m2021.06.16 21:42:34 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:42:34 INFO  time: compiled democracy in 0.48s[0m
+[0m2021.06.16 21:42:43 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:42:43 INFO  time: compiled democracy in 0.37s[0m
+[0m2021.06.16 21:42:51 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:42:51 INFO  time: compiled democracy in 0.72s[0m
+Jun 16, 2021 9:43:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2354
+Jun 16, 2021 9:43:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2367
+[0m2021.06.16 21:43:51 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:43:51 INFO  time: compiled democracy in 0.44s[0m
+[0m2021.06.16 21:44:23 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:44:23 INFO  time: compiled democracy in 0.42s[0m
+[0m2021.06.16 21:45:47 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 21:45:47 INFO  time: compiled democracy in 0.41s[0m
+[0m2021.06.16 21:45:49 INFO  compiling democracy-build (2 scala sources)[0m
+[0m2021.06.16 21:45:49 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.13. Compiling...[0m
+Jun 16, 2021 9:45:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2412
+[0m2021.06.16 21:46:04 INFO    Compilation completed in 14.697s.[0m
+[0m2021.06.16 21:46:11 INFO  time: compiled democracy-build in 22s[0m
+[0m2021.06.16 22:05:37 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:05:37 INFO  time: compiled democracy in 0.9s[0m
+[0m2021.06.16 22:05:44 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:05:45 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:05:45 INFO  time: compiled democracy in 0.62s[0m
+[0m2021.06.16 22:06:12 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:06:12 INFO  time: compiled democracy in 0.58s[0m
+[0m2021.06.16 22:07:12 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:07:12 INFO  time: compiled democracy in 0.6s[0m
+Jun 16, 2021 10:08:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2845
+[0m2021.06.16 22:08:30 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:08:30 INFO  time: compiled democracy in 0.67s[0m
+[0m2021.06.16 22:08:45 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:08:45 INFO  time: compiled democracy in 0.5s[0m
+[0m2021.06.16 22:08:56 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:08:56 INFO  time: compiled democracy in 0.57s[0m
+[0m2021.06.16 22:09:56 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:09:56 INFO  time: compiled democracy in 0.37s[0m
+[0m2021.06.16 22:10:37 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:10:37 INFO  time: compiled democracy in 0.38s[0m
+[0m2021.06.16 22:11:06 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:11:07 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:11:07 INFO  time: compiled democracy in 0.11s[0m
+[0m2021.06.16 22:11:06 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the build target democracy is being compiled. Wait until compilation is finished and try again.[0m
+[0m2021.06.16 22:11:21 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:11:21 INFO  time: compiled democracy in 0.35s[0m
+[0m2021.06.16 22:11:22 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:11:23 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:11:23 INFO  time: compiled democracy in 0.42s[0m
+[0m2021.06.16 22:12:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:12:58 INFO  time: compiled democracy in 0.35s[0m
+[0m2021.06.16 22:13:37 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:13:37 INFO  time: compiled democracy in 0.38s[0m
+[0m2021.06.16 22:16:54 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:16:54 INFO  time: compiled democracy in 0.33s[0m
+[0m2021.06.16 22:18:13 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:18:13 INFO  time: compiled democracy in 0.34s[0m
+[0m2021.06.16 22:19:14 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:19:14 INFO  time: compiled democracy in 0.38s[0m
+[0m2021.06.16 22:19:27 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:19:27 INFO  time: compiled democracy in 0.34s[0m
+[0m2021.06.16 22:20:02 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:20:03 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:20:03 INFO  time: compiled democracy in 0.33s[0m
+[0m2021.06.16 22:22:53 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:22:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:22:58 INFO  time: compiled democracy in 0.36s[0m
+[0m2021.06.16 22:23:55 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:23:55 INFO  time: compiled democracy in 0.35s[0m
+[0m2021.06.16 22:24:20 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:24:20 INFO  time: compiled democracy in 0.39s[0m
+[0m2021.06.16 22:24:36 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:24:36 INFO  time: compiled democracy in 0.35s[0m
+[0m2021.06.16 22:24:37 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:24:37 INFO  time: compiled democracy in 0.39s[0m
+[0m2021.06.16 22:25:27 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:25:29 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:25:31 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:25:32 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:25:32 INFO  time: compiled democracy in 0.34s[0m
+[0m2021.06.16 22:26:10 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:26:10 INFO  time: compiled democracy in 0.36s[0m
+[0m2021.06.16 22:26:24 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:26:24 INFO  time: compiled democracy in 0.17s[0m
+[0m2021.06.16 22:26:36 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:26:42 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:26:42 INFO  time: compiled democracy in 0.36s[0m
+[0m2021.06.16 22:27:53 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:27:54 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:27:54 INFO  time: compiled democracy in 0.34s[0m
+[0m2021.06.16 22:30:50 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:30:50 INFO  time: compiled democracy in 0.35s[0m
+[0m2021.06.16 22:32:31 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:32:31 INFO  time: compiled democracy in 0.12s[0m
+[0m2021.06.16 22:33:34 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:33:34 INFO  time: compiled democracy in 0.15s[0m
+[0m2021.06.16 22:36:17 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:36:17 INFO  time: compiled democracy in 0.11s[0m
+[0m2021.06.16 22:36:26 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:36:26 INFO  time: compiled democracy in 0.52s[0m
+[0m2021.06.16 22:36:28 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:36:28 INFO  time: compiled democracy in 0.47s[0m
+[0m2021.06.16 22:36:43 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:36:43 INFO  time: compiled democracy in 0.43s[0m
+[0m2021.06.16 22:36:54 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:36:54 INFO  time: compiled democracy in 0.44s[0m
+[0m2021.06.16 22:37:08 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:37:08 INFO  time: compiled democracy in 0.45s[0m
+[0m2021.06.16 22:37:56 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:37:56 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:37:56 INFO  time: compiled democracy in 0.49s[0m
+[0m2021.06.16 22:37:59 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:38:04 ERROR code navigation does not work for the file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala' because the SemanticDB file 'C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\.bloop\democracy\bloop-bsp-clients-classes\classes-Metals-bUAjR7U_T7q04KYZC31qpA==\META-INF\semanticdb\src\main\scala\democracy\MajorityJudgement.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.06.16 22:38:07 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:38:07 INFO  time: compiled democracy in 0.51s[0m
+[0m2021.06.16 22:38:29 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:38:29 INFO  time: compiled democracy in 0.45s[0m
+[0m2021.06.16 22:38:42 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:38:42 INFO  time: compiled democracy in 0.38s[0m
+[0m2021.06.16 22:38:47 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:38:47 INFO  time: compiled democracy in 0.45s[0m
+[0m2021.06.16 22:38:53 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:38:53 INFO  time: compiled democracy in 0.46s[0m
+[0m2021.06.16 22:40:27 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:40:27 INFO  time: compiled democracy in 0.31s[0m
+[0m2021.06.16 22:40:28 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:40:28 INFO  time: compiled democracy in 0.33s[0m
+[0m2021.06.16 22:40:39 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:40:39 INFO  time: compiled democracy in 0.67s[0m
+[0m2021.06.16 22:41:15 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.16 22:41:15 INFO  time: compiled democracy in 0.4s[0m
+[0m2021.06.17 21:17:49 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:17:49 INFO  time: compiled democracy in 0.78s[0m
+[0m2021.06.17 21:18:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:18:48 INFO  time: compiled democracy in 0.31s[0m
+[0m2021.06.17 21:20:04 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:20:04 INFO  time: compiled democracy in 0.33s[0m
+[0m2021.06.17 21:21:30 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:21:30 INFO  time: compiled democracy in 0.37s[0m
+[0m2021.06.17 21:21:44 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:21:44 INFO  time: compiled democracy in 0.3s[0m
+[0m2021.06.17 21:21:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:21:58 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 21:23:43 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:23:43 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 21:23:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:23:48 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 21:24:00 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:24:00 INFO  time: compiled democracy in 0.25s[0m
+[0m2021.06.17 21:30:46 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:30:46 INFO  time: compiled democracy in 0.31s[0m
+[0m2021.06.17 21:35:27 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:35:27 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 21:36:08 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:36:08 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 21:36:19 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:36:19 INFO  time: compiled democracy in 0.25s[0m
+[0m2021.06.17 21:37:01 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:37:01 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 21:37:18 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:37:18 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.06.17 21:39:37 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:39:37 INFO  time: compiled democracy in 92ms[0m
+[0m2021.06.17 21:40:04 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:40:04 INFO  time: compiled democracy in 94ms[0m
+[0m2021.06.17 21:41:52 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:41:52 INFO  time: compiled democracy in 84ms[0m
+[0m2021.06.17 21:42:42 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:42:42 INFO  time: compiled democracy in 0.1s[0m
+[0m2021.06.17 21:42:47 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:42:47 INFO  time: compiled democracy in 99ms[0m
+[0m2021.06.17 21:43:29 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:43:29 INFO  time: compiled democracy in 89ms[0m
+[0m2021.06.17 21:46:33 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:46:33 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 21:46:52 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:46:52 INFO  time: compiled democracy in 0.31s[0m
+[0m2021.06.17 21:47:53 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:47:53 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 21:48:30 INFO  C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala:125:24: stale bloop error: Found:    (democracy.Candidate, Seq[democracy.Grade])
+Required: democracy.Candidate
+        bestCandidates.head
+                       ^[0m
+[0m2021.06.17 21:48:30 INFO  C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\main\scala\democracy\MajorityJudgement.scala:125:24: stale bloop error: Found:    (democracy.Candidate, Seq[democracy.Grade])
+Required: democracy.Candidate
+        bestCandidates.head
+                       ^[0m
+[0m2021.06.17 21:48:32 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:48:32 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 21:48:41 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:48:41 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 21:48:55 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:48:55 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 21:49:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:49:58 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 21:51:33 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 21:51:33 INFO  time: compiled democracy in 0.26s[0m
+Jun 17, 2021 9:52:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5939
+[0m2021.06.17 21:52:04 INFO  compiling democracy-test (1 scala source)[0m
+[0m2021.06.17 21:52:04 INFO  time: compiled democracy-test in 0.57s[0m
+Jun 17, 2021 9:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5948
+Jun 17, 2021 9:52:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5957
+Jun 17, 2021 9:52:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5972
+[0m2021.06.17 21:52:18 INFO  Listening for transport dt_socket at address: 61621[0m
+[0m2021.06.17 21:52:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.17 21:52:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.17 21:52:19 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite][0m
+[0m2021.06.17 21:52:18 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61621 .[0m
+[0m2021.06.17 21:52:18 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.17 21:52:19 INFO  [32mdemocracy.MajorityJudgementSuite:[0m[0m
+[0m2021.06.17 21:52:19 INFO  [32m  + [0m[32mThe median of an empty collection is undefined[0m [90m0.083s[0m[0m
+[0m2021.06.17 21:52:19 INFO  [32m  + [0m[32mThe median of a collection with a single element should be that element[0m [90m0.012s[0m[0m
+[0m2021.06.17 21:52:19 INFO  [32m  + [0m[32mThe median of a collection with two elements can be any of those two elements[0m [90m0.004s[0m[0m
+[0m2021.06.17 21:52:19 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mThe first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade[0m  [90m0.036s[0m munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:51 Found element with value 3 in the first half of the collection. This element has a higher value than the median Inadequate.[0m
+[0m2021.06.17 21:52:19 INFO  50:      firstHalf.find(_.ordinal > medianGrade.ordinal).foreach { counterExample =>[0m
+[0m2021.06.17 21:52:19 INFO  [7m51:        fail(s"Found element with value ${counterExample.ordinal} in the first half of the collection. This element has a higher value than the median $medianGrade.")[0m[0m
+[0m2021.06.17 21:52:19 INFO  52:      }[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mmunit.Assertions.fail[0m[90m([0m[90mAssertions.scala[0m:[90m261[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mmunit.Assertions.fail$[0m[90m([0m[90mAssertions.scala[0m:[90m15[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mmunit.FunSuite.fail[0m[90m([0m[90mFunSuite.scala[0m:[90m11[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$18$$anonfun$3$$anonfun$2[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m23[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mscala.Option.foreach[0m[90m([0m[90mOption.scala[0m:[90m437[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$21$$anonfun$6[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m51[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mscala.collection.immutable.Vector.foreach[0m[90m([0m[90mVector.scala[0m:[90m1856[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$4[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m55[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mA median value minimizes the arithmetic mean of the absolute deviations of a collection[0m  [90m0.034s[0m munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:71 Found a value 0.9283815444887271 that has lower absolute deviations than the median 6.[0m
+[0m2021.06.17 21:52:19 INFO  70:        s"Found a value $x that has lower absolute deviations than the median ${median.ordinal}."[0m
+[0m2021.06.17 21:52:19 INFO  [7m71:      )[0m[0m
+[0m2021.06.17 21:52:19 INFO  72:  }[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mmunit.FunSuite.assert[0m[90m([0m[90mFunSuite.scala[0m:[90m11[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$26$$anonfun$4[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m23[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mscala.collection.immutable.Vector.foreach[0m[90m([0m[90mVector.scala[0m:[90m1856[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$5[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m71[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mThe winner is the candidate that received an absolute majority of the highest grades given by all the voters[0m  [90m0.032s[0m scala.NotImplementedError: an implementation is missing[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mscala.Predef$.$qmark$qmark$qmark[0m[90m([0m[90mPredef.scala[0m:[90m345[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.Election.findWinner[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m139[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.Election.elect[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m88[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$27$$anonfun$1[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m89[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$28$$anonfun$adapted$1[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m90[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mscala.collection.immutable.Range.map[0m[90m([0m[90mRange.scala[0m:[90m59[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$6[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m90[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [32m  + [0m[32mfull scenario with no tie-break[0m [90m0.0s[0m[0m
+[0m2021.06.17 21:52:19 INFO  [32m  + [0m[32mfull scenario with a tie-break[0m [90m0.005s[0m[0m
+[0m2021.06.17 21:52:19 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mfull scenario with a tie-break and the same grades for cooking and hiking[0m  [90m0.002s[0m scala.NotImplementedError: an implementation is missing[0m
+[0m2021.06.17 21:52:19 INFO  [90m    at [0m[90mscala.Predef$.$qmark$qmark$qmark[0m[90m([0m[90mPredef.scala[0m:[90m345[0m[90m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.Election.findWinner[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m139[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.Election.elect[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m88[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$9[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m214[0m[1m)[0m[0m
+[0m2021.06.17 21:52:19 INFO  Execution took 0.21s[0m
+[0m2021.06.17 21:52:19 INFO  9 tests, 5 passed, 4 failed[0m
+[0m2021.06.17 21:52:19 INFO  [0m
+[0m2021.06.17 21:52:19 INFO  ===============================================[0m
+[0m2021.06.17 21:52:19 INFO  Total duration: 0.21s[0m
+[0m2021.06.17 21:52:19 INFO  1 failed[0m
+[0m2021.06.17 21:52:19 INFO  [0m
+[0m2021.06.17 21:52:19 INFO  Failed:[0m
+[0m2021.06.17 21:52:19 INFO  - democracy.MajorityJudgementSuite:[0m
+[0m2021.06.17 21:52:19 INFO    * democracy.MajorityJudgementSuite.The first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade - munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:51 Found element with value 3 in the first half of the collection. This element has a higher value than the median Inadequate.
+50:      firstHalf.find(_.ordinal > medianGrade.ordinal).foreach { counterExample =>
+[7m51:        fail(s"Found element with value ${counterExample.ordinal} in the first half of the collection. This element has a higher value than the median $medianGrade.")[0m
+52:      }[0m
+[0m2021.06.17 21:52:19 INFO    * democracy.MajorityJudgementSuite.A median value minimizes the arithmetic mean of the absolute deviations of a collection - munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:71 Found a value 0.9283815444887271 that has lower absolute deviations than the median 6.
+70:        s"Found a value $x that has lower absolute deviations than the median ${median.ordinal}."
+[7m71:      )[0m
+72:  }[0m
+[0m2021.06.17 21:52:19 INFO    * democracy.MajorityJudgementSuite.The winner is the candidate that received an absolute majority of the highest grades given by all the voters - scala.NotImplementedError: an implementation is missing[0m
+[0m2021.06.17 21:52:19 INFO    * democracy.MajorityJudgementSuite.full scenario with a tie-break and the same grades for cooking and hiking - scala.NotImplementedError: an implementation is missing[0m
+[0m2021.06.17 21:52:19 INFO  ===============================================[0m
+[0m2021.06.17 21:52:20 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite][0m
+Jun 17, 2021 9:53:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5982
+Jun 17, 2021 9:53:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5989
+Jun 17, 2021 9:53:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5996
+[0m2021.06.17 22:05:03 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:05:03 INFO  time: compiled democracy in 0.33s[0m
+[0m2021.06.17 22:05:22 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:05:22 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.06.17 22:07:53 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:07:53 INFO  time: compiled democracy in 0.1s[0m
+[0m2021.06.17 22:08:42 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:08:42 INFO  time: compiled democracy in 89ms[0m
+[0m2021.06.17 22:09:01 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:09:01 INFO  time: compiled democracy in 97ms[0m
+[0m2021.06.17 22:09:20 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:09:20 INFO  time: compiled democracy in 0.11s[0m
+[0m2021.06.17 22:09:22 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:09:22 INFO  time: compiled democracy in 0.1s[0m
+[0m2021.06.17 22:11:59 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:11:59 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 22:12:06 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:12:06 INFO  time: compiled democracy in 0.12s[0m
+[0m2021.06.17 22:12:39 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:12:39 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 22:12:49 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:12:49 INFO  time: compiled democracy in 0.31s[0m
+Jun 17, 2021 10:14:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6612
+[0m2021.06.17 22:15:13 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:15:13 INFO  time: compiled democracy in 0.42s[0m
+[0m2021.06.17 22:15:24 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:15:24 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 22:15:29 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:15:29 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.06.17 22:16:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:16:48 INFO  time: compiled democracy in 0.29s[0m
+[0m2021.06.17 22:17:19 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:17:19 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 22:18:07 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:18:07 INFO  time: compiled democracy in 0.38s[0m
+Jun 17, 2021 10:18:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6977
+[0m2021.06.17 22:20:08 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:20:08 INFO  time: compiled democracy in 0.32s[0m
+[0m2021.06.17 22:23:02 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:23:02 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 22:23:58 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:23:58 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 22:25:55 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:25:55 INFO  time: compiled democracy in 0.39s[0m
+[0m2021.06.17 22:26:00 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:26:00 INFO  time: compiled democracy in 0.24s[0m
+[0m2021.06.17 22:26:06 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:26:06 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 22:27:55 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:27:55 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 22:27:57 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:27:57 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 22:28:34 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:28:34 INFO  time: compiled democracy in 0.37s[0m
+[0m2021.06.17 22:28:47 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:28:47 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 22:29:59 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:29:59 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 22:30:11 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:30:11 INFO  time: compiled democracy in 0.24s[0m
+[0m2021.06.17 22:31:14 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:31:14 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 22:31:19 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:31:19 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 22:31:31 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:31:31 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 22:33:24 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:33:24 INFO  time: compiled democracy in 0.25s[0m
+[0m2021.06.17 22:34:06 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:34:06 INFO  time: compiled democracy in 0.25s[0m
+[0m2021.06.17 22:34:49 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:34:49 INFO  time: compiled democracy in 0.4s[0m
+[0m2021.06.17 22:34:57 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:34:57 INFO  time: compiled democracy in 0.25s[0m
+[0m2021.06.17 22:35:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:35:48 INFO  time: compiled democracy in 0.26s[0m
+[0m2021.06.17 22:35:59 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:35:59 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 22:36:12 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:36:12 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 22:37:36 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:37:36 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 22:39:10 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:39:10 INFO  time: compiled democracy in 0.28s[0m
+[0m2021.06.17 22:39:16 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:39:16 INFO  time: compiled democracy in 0.25s[0m
+[0m2021.06.17 22:39:40 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:39:40 INFO  time: compiled democracy in 0.25s[0m
+[0m2021.06.17 22:40:55 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:40:55 INFO  time: compiled democracy in 0.36s[0m
+[0m2021.06.17 22:41:09 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:41:09 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 22:41:16 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:41:16 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 22:41:38 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:41:38 INFO  time: compiled democracy in 0.27s[0m
+[0m2021.06.17 22:41:43 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:41:43 INFO  time: compiled democracy in 93ms[0m
+[0m2021.06.17 22:41:56 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:41:56 INFO  time: compiled democracy in 87ms[0m
+[0m2021.06.17 22:43:48 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:43:48 INFO  time: compiled democracy in 0.1s[0m
+[0m2021.06.17 22:44:18 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:44:18 INFO  time: compiled democracy in 0.11s[0m
+[0m2021.06.17 22:44:49 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:44:49 INFO  time: compiled democracy in 0.1s[0m
+[0m2021.06.17 22:45:09 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:45:09 INFO  time: compiled democracy in 99ms[0m
+[0m2021.06.17 22:45:28 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:45:28 INFO  time: compiled democracy in 81ms[0m
+[0m2021.06.17 22:45:40 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:45:40 INFO  time: compiled democracy in 80ms[0m
+[0m2021.06.17 22:45:42 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:45:42 INFO  time: compiled democracy in 77ms[0m
+[0m2021.06.17 22:46:02 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:46:02 INFO  time: compiled democracy in 94ms[0m
+[0m2021.06.17 22:46:15 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:46:15 INFO  time: compiled democracy in 80ms[0m
+[0m2021.06.17 22:46:17 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:46:17 INFO  time: compiled democracy in 77ms[0m
+[0m2021.06.17 22:46:18 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:46:18 INFO  time: compiled democracy in 88ms[0m
+[0m2021.06.17 22:46:31 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:46:31 INFO  time: compiled democracy in 84ms[0m
+[0m2021.06.17 22:46:32 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:46:32 INFO  time: compiled democracy in 77ms[0m
+[0m2021.06.17 22:46:34 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:46:34 INFO  time: compiled democracy in 79ms[0m
+[0m2021.06.17 22:46:38 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.17 22:46:38 INFO  time: compiled democracy in 0.27s[0m
+Jun 17, 2021 10:46:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8258
+[0m2021.06.17 22:46:46 INFO  Deduplicating compilation of democracy from bsp client 'Metals 0.10.4' (since 73h 3m 40.908s)[0m
+[0m2021.06.17 22:46:46 INFO  Deduplicating compilation of democracy-test from bsp client 'Metals 0.10.4' (since 73h 3m 40.924s)[0m
+[0m2021.06.17 22:46:48 INFO  Listening for transport dt_socket at address: 62482[0m
+[0m2021.06.17 22:46:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.17 22:46:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.17 22:46:49 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite][0m
+[0m2021.06.17 22:46:48 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62482 .[0m
+[0m2021.06.17 22:46:48 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.17 22:46:49 INFO  [32mdemocracy.MajorityJudgementSuite:[0m[0m
+[0m2021.06.17 22:46:49 INFO  [32m  + [0m[32mThe median of an empty collection is undefined[0m [90m0.048s[0m[0m
+[0m2021.06.17 22:46:49 INFO  [32m  + [0m[32mThe median of a collection with a single element should be that element[0m [90m0.025s[0m[0m
+[0m2021.06.17 22:46:49 INFO  [32m  + [0m[32mThe median of a collection with two elements can be any of those two elements[0m [90m0.004s[0m[0m
+[0m2021.06.17 22:46:49 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mThe first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade[0m  [90m0.033s[0m munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:51 Found element with value 2 in the first half of the collection. This element has a higher value than the median Mediocre.[0m
+[0m2021.06.17 22:46:49 INFO  50:      firstHalf.find(_.ordinal > medianGrade.ordinal).foreach { counterExample =>[0m
+[0m2021.06.17 22:46:49 INFO  [7m51:        fail(s"Found element with value ${counterExample.ordinal} in the first half of the collection. This element has a higher value than the median $medianGrade.")[0m[0m
+[0m2021.06.17 22:46:49 INFO  52:      }[0m
+[0m2021.06.17 22:46:49 INFO  [90m    at [0m[90mmunit.Assertions.fail[0m[90m([0m[90mAssertions.scala[0m:[90m261[0m[90m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [90m    at [0m[90mmunit.Assertions.fail$[0m[90m([0m[90mAssertions.scala[0m:[90m15[0m[90m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [90m    at [0m[90mmunit.FunSuite.fail[0m[90m([0m[90mFunSuite.scala[0m:[90m11[0m[90m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$18$$anonfun$3$$anonfun$2[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m23[0m[1m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [90m    at [0m[90mscala.Option.foreach[0m[90m([0m[90mOption.scala[0m:[90m437[0m[90m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$21$$anonfun$6[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m51[0m[1m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [90m    at [0m[90mscala.collection.immutable.Vector.foreach[0m[90m([0m[90mVector.scala[0m:[90m1856[0m[90m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$4[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m55[0m[1m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mA median value minimizes the arithmetic mean of the absolute deviations of a collection[0m  [90m0.036s[0m munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:71 Found a value 1.6280798168082646 that has lower absolute deviations than the median 1.[0m
+[0m2021.06.17 22:46:49 INFO  70:        s"Found a value $x that has lower absolute deviations than the median ${median.ordinal}."[0m
+[0m2021.06.17 22:46:49 INFO  [7m71:      )[0m[0m
+[0m2021.06.17 22:46:49 INFO  72:  }[0m
+[0m2021.06.17 22:46:49 INFO  [90m    at [0m[90mmunit.FunSuite.assert[0m[90m([0m[90mFunSuite.scala[0m:[90m11[0m[90m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$26$$anonfun$4[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m23[0m[1m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [90m    at [0m[90mscala.collection.immutable.Vector.foreach[0m[90m([0m[90mVector.scala[0m:[90m1856[0m[90m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$5[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m71[0m[1m)[0m[0m
+[0m2021.06.17 22:46:49 INFO  [32m  + [0m[32mThe winner is the candidate that received an absolute majority of the highest grades given by all the voters[0m [90m0.134s[0m[0m
+[0m2021.06.17 22:46:49 INFO  [32m  + [0m[32mfull scenario with no tie-break[0m [90m0.002s[0m[0m
+[0m2021.06.17 22:46:49 INFO  [32m  + [0m[32mfull scenario with a tie-break[0m [90m0.005s[0m[0m
+[0m2021.06.17 22:46:49 INFO  [32m  + [0m[32mfull scenario with a tie-break and the same grades for cooking and hiking[0m [90m0.003s[0m[0m
+[0m2021.06.17 22:46:49 INFO  Execution took 0.29s[0m
+[0m2021.06.17 22:46:49 INFO  9 tests, 7 passed, 2 failed[0m
+[0m2021.06.17 22:46:49 INFO  [0m
+[0m2021.06.17 22:46:49 INFO  ===============================================[0m
+[0m2021.06.17 22:46:49 INFO  Total duration: 0.29s[0m
+[0m2021.06.17 22:46:49 INFO  1 failed[0m
+[0m2021.06.17 22:46:49 INFO  [0m
+[0m2021.06.17 22:46:49 INFO  Failed:[0m
+[0m2021.06.17 22:46:49 INFO  - democracy.MajorityJudgementSuite:[0m
+[0m2021.06.17 22:46:49 INFO    * democracy.MajorityJudgementSuite.The first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade - munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:51 Found element with value 2 in the first half of the collection. This element has a higher value than the median Mediocre.
+50:      firstHalf.find(_.ordinal > medianGrade.ordinal).foreach { counterExample =>
+[7m51:        fail(s"Found element with value ${counterExample.ordinal} in the first half of the collection. This element has a higher value than the median $medianGrade.")[0m
+52:      }[0m
+[0m2021.06.17 22:46:49 INFO    * democracy.MajorityJudgementSuite.A median value minimizes the arithmetic mean of the absolute deviations of a collection - munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:71 Found a value 1.6280798168082646 that has lower absolute deviations than the median 1.
+70:        s"Found a value $x that has lower absolute deviations than the median ${median.ordinal}."
+[7m71:      )[0m
+72:  }[0m
+[0m2021.06.17 22:46:49 INFO  ===============================================[0m
+[0m2021.06.17 22:46:49 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite][0m
+Jun 18, 2021 5:53:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8272
+[0m2021.06.18 17:54:05 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.18 17:54:05 INFO  time: compiled democracy in 0.66s[0m
+Jun 18, 2021 5:54:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8289
+[0m2021.06.18 17:54:11 INFO  Deduplicating compilation of democracy from bsp client 'Metals 0.10.4' (since 92h 11m 5.649s)[0m
+[0m2021.06.18 17:54:11 INFO  Deduplicating compilation of democracy-test from bsp client 'Metals 0.10.4' (since 92h 11m 5.664s)[0m
+[0m2021.06.18 17:54:13 INFO  Listening for transport dt_socket at address: 64227[0m
+[0m2021.06.18 17:54:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.18 17:54:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.18 17:54:14 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite][0m
+[0m2021.06.18 17:54:14 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64227 .[0m
+[0m2021.06.18 17:54:14 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.18 17:54:14 INFO  [32mdemocracy.MajorityJudgementSuite:[0m[0m
+[0m2021.06.18 17:54:14 INFO  [32m  + [0m[32mThe median of an empty collection is undefined[0m [90m0.07s[0m[0m
+[0m2021.06.18 17:54:14 INFO  [32m  + [0m[32mThe median of a collection with a single element should be that element[0m [90m0.01s[0m[0m
+[0m2021.06.18 17:54:14 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mThe median of a collection with two elements can be any of those two elements[0m  [90m0.004s[0m java.lang.IndexOutOfBoundsException: 2[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.LinearSeqOps.apply[0m[90m([0m[90mLinearSeq.scala[0m:[90m117[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.LinearSeqOps.apply$[0m[90m([0m[90mLinearSeq.scala[0m:[90m114[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.immutable.List.apply[0m[90m([0m[90mList.scala[0m:[90m79[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.Grade$.median[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m37[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$3[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m29[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mThe first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade[0m  [90m0.031s[0m munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:51 Found element with value 1 in the first half of the collection. This element has a higher value than the median Bad.[0m
+[0m2021.06.18 17:54:14 INFO  50:      firstHalf.find(_.ordinal > medianGrade.ordinal).foreach { counterExample =>[0m
+[0m2021.06.18 17:54:14 INFO  [7m51:        fail(s"Found element with value ${counterExample.ordinal} in the first half of the collection. This element has a higher value than the median $medianGrade.")[0m[0m
+[0m2021.06.18 17:54:14 INFO  52:      }[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mmunit.Assertions.fail[0m[90m([0m[90mAssertions.scala[0m:[90m261[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mmunit.Assertions.fail$[0m[90m([0m[90mAssertions.scala[0m:[90m15[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mmunit.FunSuite.fail[0m[90m([0m[90mFunSuite.scala[0m:[90m11[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$18$$anonfun$3$$anonfun$2[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m23[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.Option.foreach[0m[90m([0m[90mOption.scala[0m:[90m437[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$21$$anonfun$6[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m51[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.immutable.Vector.foreach[0m[90m([0m[90mVector.scala[0m:[90m1856[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$4[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m55[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mA median value minimizes the arithmetic mean of the absolute deviations of a collection[0m  [90m0.03s[0m java.lang.IndexOutOfBoundsException: 2[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.LinearSeqOps.apply[0m[90m([0m[90mLinearSeq.scala[0m:[90m117[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.LinearSeqOps.apply$[0m[90m([0m[90mLinearSeq.scala[0m:[90m114[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.immutable.List.apply[0m[90m([0m[90mList.scala[0m:[90m79[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.Grade$.median[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m37[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$22$$anonfun$1[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m63[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$23$$anonfun$adapted$1[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m66[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.immutable.Range.map[0m[90m([0m[90mRange.scala[0m:[90m59[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$5[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m66[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [32m  + [0m[32mThe winner is the candidate that received an absolute majority of the highest grades given by all the voters[0m [90m0.146s[0m[0m
+[0m2021.06.18 17:54:14 INFO  [32m  + [0m[32mfull scenario with no tie-break[0m [90m0.002s[0m[0m
+[0m2021.06.18 17:54:14 INFO  [32m  + [0m[32mfull scenario with a tie-break[0m [90m0.007s[0m[0m
+[0m2021.06.18 17:54:14 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mfull scenario with a tie-break and the same grades for cooking and hiking[0m  [90m0.001s[0m java.lang.IndexOutOfBoundsException: 2[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.LinearSeqOps.apply[0m[90m([0m[90mLinearSeq.scala[0m:[90m117[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.LinearSeqOps.apply$[0m[90m([0m[90mLinearSeq.scala[0m:[90m114[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.immutable.List.apply[0m[90m([0m[90mList.scala[0m:[90m79[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.Grade$.median[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m37[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.Election.$anonfun$5[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m114[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.immutable.List.map[0m[90m([0m[90mList.scala[0m:[90m246[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [90m    at [0m[90mscala.collection.immutable.List.map[0m[90m([0m[90mList.scala[0m:[90m79[0m[90m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.Election.findWinner[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m114[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.Election.findWinner[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m146[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.Election.elect[0m[1m([0m[1mMajorityJudgement.scala[0m:[1m88[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$9[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m214[0m[1m)[0m[0m
+[0m2021.06.18 17:54:14 INFO  Execution took 0.3s[0m
+[0m2021.06.18 17:54:14 INFO  9 tests, 5 passed, 4 failed[0m
+[0m2021.06.18 17:54:14 INFO  [0m
+[0m2021.06.18 17:54:14 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite][0m
+[0m2021.06.18 17:54:14 INFO  ===============================================[0m
+[0m2021.06.18 17:54:14 INFO  Total duration: 0.3s[0m
+[0m2021.06.18 17:54:14 INFO  1 failed[0m
+[0m2021.06.18 17:54:14 INFO  [0m
+[0m2021.06.18 17:54:14 INFO  Failed:[0m
+[0m2021.06.18 17:54:14 INFO  - democracy.MajorityJudgementSuite:[0m
+[0m2021.06.18 17:54:14 INFO    * democracy.MajorityJudgementSuite.The median of a collection with two elements can be any of those two elements - java.lang.IndexOutOfBoundsException: 2[0m
+[0m2021.06.18 17:54:15 INFO    * democracy.MajorityJudgementSuite.The first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade - munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:51 Found element with value 1 in the first half of the collection. This element has a higher value than the median Bad.
+50:      firstHalf.find(_.ordinal > medianGrade.ordinal).foreach { counterExample =>
+[7m51:        fail(s"Found element with value ${counterExample.ordinal} in the first half of the collection. This element has a higher value than the median $medianGrade.")[0m
+52:      }[0m
+[0m2021.06.18 17:54:15 INFO    * democracy.MajorityJudgementSuite.A median value minimizes the arithmetic mean of the absolute deviations of a collection - java.lang.IndexOutOfBoundsException: 2[0m
+[0m2021.06.18 17:54:15 INFO    * democracy.MajorityJudgementSuite.full scenario with a tie-break and the same grades for cooking and hiking - java.lang.IndexOutOfBoundsException: 2[0m
+[0m2021.06.18 17:54:15 INFO  ===============================================[0m
+Jun 18, 2021 5:54:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8311
+[0m2021.06.18 17:54:23 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.18 17:54:23 INFO  time: compiled democracy in 0.29s[0m
+Jun 18, 2021 5:54:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8328
+[0m2021.06.18 17:54:29 INFO  Deduplicating compilation of democracy from bsp client 'Metals 0.10.4' (since 92h 11m 23.702s)[0m
+[0m2021.06.18 17:54:29 INFO  Deduplicating compilation of democracy-test from bsp client 'Metals 0.10.4' (since 92h 11m 23.719s)[0m
+[0m2021.06.18 17:54:31 INFO  Listening for transport dt_socket at address: 64248[0m
+[0m2021.06.18 17:54:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.18 17:54:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.18 17:54:32 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite][0m
+[0m2021.06.18 17:54:31 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64248 .[0m
+[0m2021.06.18 17:54:31 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.18 17:54:32 INFO  [32mdemocracy.MajorityJudgementSuite:[0m[0m
+[0m2021.06.18 17:54:32 INFO  [32m  + [0m[32mThe median of an empty collection is undefined[0m [90m0.068s[0m[0m
+[0m2021.06.18 17:54:32 INFO  [32m  + [0m[32mThe median of a collection with a single element should be that element[0m [90m0.013s[0m[0m
+[0m2021.06.18 17:54:32 INFO  [32m  + [0m[32mThe median of a collection with two elements can be any of those two elements[0m [90m0.004s[0m[0m
+[0m2021.06.18 17:54:32 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mThe first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade[0m  [90m0.045s[0m munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:51 Found element with value 2 in the first half of the collection. This element has a higher value than the median Mediocre.[0m
+[0m2021.06.18 17:54:32 INFO  50:      firstHalf.find(_.ordinal > medianGrade.ordinal).foreach { counterExample =>[0m
+[0m2021.06.18 17:54:32 INFO  [7m51:        fail(s"Found element with value ${counterExample.ordinal} in the first half of the collection. This element has a higher value than the median $medianGrade.")[0m[0m
+[0m2021.06.18 17:54:32 INFO  52:      }[0m
+[0m2021.06.18 17:54:32 INFO  [90m    at [0m[90mmunit.Assertions.fail[0m[90m([0m[90mAssertions.scala[0m:[90m261[0m[90m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [90m    at [0m[90mmunit.Assertions.fail$[0m[90m([0m[90mAssertions.scala[0m:[90m15[0m[90m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [90m    at [0m[90mmunit.FunSuite.fail[0m[90m([0m[90mFunSuite.scala[0m:[90m11[0m[90m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$18$$anonfun$3$$anonfun$2[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m23[0m[1m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [90m    at [0m[90mscala.Option.foreach[0m[90m([0m[90mOption.scala[0m:[90m437[0m[90m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$21$$anonfun$6[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m51[0m[1m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [90m    at [0m[90mscala.collection.immutable.Vector.foreach[0m[90m([0m[90mVector.scala[0m:[90m1856[0m[90m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$4[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m55[0m[1m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [91m==> X [0m[91mdemocracy.MajorityJudgementSuite[0m.[91mA median value minimizes the arithmetic mean of the absolute deviations of a collection[0m  [90m0.031s[0m munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:71 Found a value 4.826777917652972 that has lower absolute deviations than the median 0.[0m
+[0m2021.06.18 17:54:32 INFO  70:        s"Found a value $x that has lower absolute deviations than the median ${median.ordinal}."[0m
+[0m2021.06.18 17:54:32 INFO  [7m71:      )[0m[0m
+[0m2021.06.18 17:54:32 INFO  72:  }[0m
+[0m2021.06.18 17:54:32 INFO  [90m    at [0m[90mmunit.FunSuite.assert[0m[90m([0m[90mFunSuite.scala[0m:[90m11[0m[90m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$26$$anonfun$4[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m23[0m[1m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [90m    at [0m[90mscala.collection.immutable.Vector.foreach[0m[90m([0m[90mVector.scala[0m:[90m1856[0m[90m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [1m    at [0m[1mdemocracy.MajorityJudgementSuite.$init$$$anonfun$5[0m[1m([0m[1mMajorityJudgementSuite.scala[0m:[1m71[0m[1m)[0m[0m
+[0m2021.06.18 17:54:32 INFO  [32m  + [0m[32mThe winner is the candidate that received an absolute majority of the highest grades given by all the voters[0m [90m0.128s[0m[0m
+[0m2021.06.18 17:54:32 INFO  [32m  + [0m[32mfull scenario with no tie-break[0m [90m0.002s[0m[0m
+[0m2021.06.18 17:54:32 INFO  [32m  + [0m[32mfull scenario with a tie-break[0m [90m0.006s[0m[0m
+[0m2021.06.18 17:54:32 INFO  [32m  + [0m[32mfull scenario with a tie-break and the same grades for cooking and hiking[0m [90m0.003s[0m[0m
+[0m2021.06.18 17:54:32 INFO  Execution took 0.3s[0m
+[0m2021.06.18 17:54:32 INFO  9 tests, 7 passed, 2 failed[0m
+[0m2021.06.18 17:54:32 INFO  [0m
+[0m2021.06.18 17:54:32 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite][0m
+[0m2021.06.18 17:54:32 INFO  ===============================================[0m
+[0m2021.06.18 17:54:32 INFO  Total duration: 0.3s[0m
+[0m2021.06.18 17:54:32 INFO  1 failed[0m
+[0m2021.06.18 17:54:32 INFO  [0m
+[0m2021.06.18 17:54:32 INFO  Failed:[0m
+[0m2021.06.18 17:54:32 INFO  - democracy.MajorityJudgementSuite:[0m
+[0m2021.06.18 17:54:32 INFO    * democracy.MajorityJudgementSuite.The first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade - munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:51 Found element with value 2 in the first half of the collection. This element has a higher value than the median Mediocre.
+50:      firstHalf.find(_.ordinal > medianGrade.ordinal).foreach { counterExample =>
+[7m51:        fail(s"Found element with value ${counterExample.ordinal} in the first half of the collection. This element has a higher value than the median $medianGrade.")[0m
+52:      }[0m
+[0m2021.06.18 17:54:32 INFO    * democracy.MajorityJudgementSuite.A median value minimizes the arithmetic mean of the absolute deviations of a collection - munit.FailException: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\democracy\democracy\src\test\scala\democracy\MajorityJudgementSuite.scala:71 Found a value 4.826777917652972 that has lower absolute deviations than the median 0.
+70:        s"Found a value $x that has lower absolute deviations than the median ${median.ordinal}."
+[7m71:      )[0m
+72:  }[0m
+[0m2021.06.18 17:54:32 INFO  ===============================================[0m
+Jun 18, 2021 5:54:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8341
+Jun 18, 2021 5:56:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8348
+Jun 18, 2021 5:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8353
+[0m2021.06.18 18:08:08 INFO  compiling democracy (1 scala source)[0m
+[0m2021.06.18 18:08:08 INFO  time: compiled democracy in 0.23s[0m
+Jun 18, 2021 6:08:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8391
+[0m2021.06.18 18:08:16 INFO  Deduplicating compilation of democracy from bsp client 'Metals 0.10.4' (since 92h 25m 10.722s)[0m
+[0m2021.06.18 18:08:16 INFO  Deduplicating compilation of democracy-test from bsp client 'Metals 0.10.4' (since 92h 25m 10.753s)[0m
+[0m2021.06.18 18:08:18 INFO  Listening for transport dt_socket at address: 64348[0m
+[0m2021.06.18 18:08:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.06.18 18:08:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\User\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.06.18 18:08:19 INFO  Starting debug proxy for [democracy.MajorityJudgementSuite][0m
+[0m2021.06.18 18:08:18 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64348 .[0m
+[0m2021.06.18 18:08:18 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.06.18 18:08:19 INFO  [32mdemocracy.MajorityJudgementSuite:[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mThe median of an empty collection is undefined[0m [90m0.063s[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mThe median of a collection with a single element should be that element[0m [90m0.009s[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mThe median of a collection with two elements can be any of those two elements[0m [90m0.004s[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mThe first (resp. second) half of a sorted collection should be lower (resp. higher) than the median grade[0m [90m0.027s[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mA median value minimizes the arithmetic mean of the absolute deviations of a collection[0m [90m0.006s[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mThe winner is the candidate that received an absolute majority of the highest grades given by all the voters[0m [90m0.133s[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mfull scenario with no tie-break[0m [90m0.0s[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mfull scenario with a tie-break[0m [90m0.007s[0m[0m
+[0m2021.06.18 18:08:19 INFO  [32m  + [0m[32mfull scenario with a tie-break and the same grades for cooking and hiking[0m [90m0.002s[0m[0m
+[0m2021.06.18 18:08:19 INFO  Execution took 0.25s[0m
+[0m2021.06.18 18:08:19 INFO  9 tests, 9 passed[0m
+[0m2021.06.18 18:08:19 INFO  All tests in democracy.MajorityJudgementSuite passed[0m
+[0m2021.06.18 18:08:19 INFO  [0m
+[0m2021.06.18 18:08:19 INFO  ===============================================[0m
+[0m2021.06.18 18:08:19 INFO  Total duration: 0.25s[0m
+[0m2021.06.18 18:08:19 INFO  All 1 test suites passed.[0m
+[0m2021.06.18 18:08:19 INFO  ===============================================[0m
+[0m2021.06.18 18:08:19 INFO  Canceling debug proxy for [democracy.MajorityJudgementSuite][0m
+[0m2021.06.22 22:21:02 INFO  shutting down Metals[0m
+[0m2021.06.22 22:21:02 INFO  Shut down connection with build server.[0m
+[0m2021.06.22 22:21:02 INFO  Shut down connection with build server.[0m
+[0m2021.06.22 22:21:02 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

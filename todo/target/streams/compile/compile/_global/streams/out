@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\todo\src\main\scala\todo\InMemoryModel.scala:40:15 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m40 |[0m    idStore.get(id)[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Found:    [1m[31mOption[0m[1m[31m[[0mtodo.data.Task[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Required: todo.data.Task[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
