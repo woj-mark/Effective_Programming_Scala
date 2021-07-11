@@ -33,7 +33,13 @@ object InMemoryModel extends Model:
     mutable.LinkedHashMap.from(defaultTasks)
 
   def create(task: Task): Id =
+    //Use idGenerator.nextID() function to generate a new id
     val id = idGenerator.nextId()
+
+    //Adding a new key-vaue pair to the idStore hashmap for the generated id for the input task
+    idStore += id -> task
+
+    //Return the newly generated id for the input task
     id
 
   def read(id: Id): Option[Task] =
