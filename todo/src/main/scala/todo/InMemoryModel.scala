@@ -35,10 +35,8 @@ object InMemoryModel extends Model:
   def create(task: Task): Id =
     //Use idGenerator.nextID() function to generate a new id
     val id = idGenerator.nextId()
-
     //Adding a new key-vaue pair to the idStore hashmap for the generated id for the input task
     idStore += id -> task
-
     //Return the newly generated id for the input task
     id
 
@@ -53,7 +51,14 @@ object InMemoryModel extends Model:
 
   def delete(id: Id): Boolean =
     var found = false
+
+    //Check if task with given id exists. If it does, remove it from the HashMap and return True.
+    if idStore.keySet.contains(id) then
+      idStore -= id
+      found = true
+    
     found
+    
 
   def tasks: Tasks =
     Tasks(idStore)
