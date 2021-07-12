@@ -66,7 +66,7 @@ object InMemoryModel extends Model:
     Tasks(idStore)
 
   def tags: Tags =
-    Tags(List.empty)
+    Tags(idStore.flatMap((id, task) => task.tags).toList.distinct)
 
   def tasks(tag: Tag): Tasks =
     //Retrieve tasks which contain the input tags, use filter method
