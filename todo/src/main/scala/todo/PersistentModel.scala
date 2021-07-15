@@ -96,28 +96,75 @@ object PersistentModel extends Model:
    */
 
   def create(task: Task): Id =
-    ???
+    //Use load tasks and load id functions to get the state
+    val loadedTasks = loadTasks()
+    val loadedId = loadId()
+    
+    //Add a new key-value pair task to the Tasks
+    val newTasks = Tasks(loadedTasks.toMap + (loadedId -> task))
+
+    //Save the new variables
+    saveTasks(newTasks)
+    saveId(loadedId.next)
+
+    loadedId
+
 
   def read(id: Id): Option[Task] =
-    ???
+    //Retrieve all the task the tasks
+    val tasksToRead = loadTasks()
+    
+    //Get the key value pair corresponding to the Id
+    val readTask = tasksToRead.toMap.get(id)
+
+    readTask
 
   def update(id: Id)(f: Task => Task): Option[Task] =
-    ???
+    val tasks = loadTasks().toMap
+
+    //Use map HO function over the tasks map to update for the input if
+      val updatedTasks = tasks.map((taskId, taskItem) =>
+        if taskId == id then
+           taskId -> f(taskItem)
+        else taskId -> taskItem       
+        )
+      saveTasks(Tasks(updatedTasks))
+      updatedTasks.get(id)
 
   def delete(id: Id): Boolean =
-    ???
+    var found = false
+
+    //Load the tasks
+    var tasksMap = loadTasks().toMap
+
+    //Check if task with given id exists. If it does, remove it from the HashMap and return True.
+    if tasksMap.keySet.contains(id) then
+      saveTasks(Tasks(tasksMap - id))
+      found = true
+
+    found
+
 
   def tasks: Tasks =
-    ???
+    loadTasks()
 
   def tasks(tag: Tag): Tasks =
-    ???
+    val loadedTasks = loadTasks().toMap
+    //Retrieve tasks which contain the input tag, use filter method
+    val filteredTasks = loadedTasks.filter((k, v) => v.tags.contains(tag))
+
+    Tasks(filteredTasks)
 
   def complete(id: Id): Option[Task] =
-    ???
+    //USe update function, create a copy of the task
+    update(id)(task => task.copy(state = State.completedNow))
 
   def tags: Tags =
-    ???
+    //Same as in the InMemoryModel, ut carried out on uploaded tasks
+    var uploadedTasks = loadTasks().toMap
+    Tags(uploadedTasks.flatMap((id, task) => task.tags).toList.distinct)
+
 
   def clear(): Unit =
-    ???
+    //Update the task with an empty Tasks object
+    saveTasks(Tasks.empty)
