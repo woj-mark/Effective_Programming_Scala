@@ -90,6 +90,23 @@ class HeapProperties(heapInterface: HeapInterface) extends Properties("Heap"):
       verify(sequence.sortBy(_.self),heap)
     }
 
+  property("finding a minimum of joining of any two enerated heaps should return a minimum from one or the other") =
+    //Create the heaps using genHeap lazy functions and run for all method
+    //Had to add 'suchThat(_.nonEmpty)' to pass the test
+       forAll(genHeap.suchThat(_.nonEmpty)){(heap1:List[Node]) =>
+      forAll(genHeap.suchThat(_.nonEmpty)){(heap2:List[Node]) =>
+
+        //Create the meleded heap
+        var meldedHeap = meld(heap1, heap2)
+
+        //Extract the minima from either of the heaps and compare against the melded heap
+        var minHeap1 = findMin(heap1)
+        var minHeap2 = findMin(heap2)
+      
+        findMin(meldedHeap) == Math.min(minHeap1, minHeap2)
+      }
+    }
+
   // random heap generator --- DO NOT MODIFY
   private lazy val genHeap: Gen[List[Node]] = oneOf(const(empty),
     for
