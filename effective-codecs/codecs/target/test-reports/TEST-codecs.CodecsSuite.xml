@@ -1,86 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="DESKTOP-4M55DBE" name="codecs.CodecsSuite" tests="14" errors="0" failures="9" skipped="0" time="0.358" timestamp="2021-08-02T18:49:44">
+<testsuite hostname="DESKTOP-4M55DBE" name="codecs.CodecsSuite" tests="14" errors="0" failures="0" skipped="0" time="0.932" timestamp="2021-08-27T14:39:52">
                      <properties>
       <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="sun.arch.data.model" value="64"/><property name="bootstrap.mainClass" value="xsbt.boot.Boot"/><property name="java.vendor.url" value="https://openjdk.java.net/"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/><property name="sun.java.command" value="C:\Users\User\null\Coursier\data\bin\sbt.bat test"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp850"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2021-04-20"/><property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
-"/><property name="sun.stdout.encoding" value="cp850"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.11+9-LTS-194"/><property name="user.name" value="User"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\User\AppData\Local\Temp\jna-2645995\jna12342695876838869380.dll"/><property name="java.vendor.version" value="18.9"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/><property name="java.version" value="11.0.11"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="sun.os.patch.level" value=""/><property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\Libraries\null\Coursier\data\bin;C:\Users\User\null\Coursier\cache\jvm\adopt@1.8.0-292\bin;C:\Users\User\null\Coursier\data\bin;C:\Users\User\null\Coursier\cache\v1\https\github.com\sbt\sbt\releases\download\v1.5.3\sbt-1.5.3.zip\sbt;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.2\bin;;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\ProgramData\User\GitHubDesktop\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;."/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="windows"/><property name="java.class.path" value="C:\Users\User\null\Coursier\data\bin\sbt.bat;C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\effective-codecs\codecs\null\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\sbt\sbt-runner\0.2.0\sbt-runner-0.2.0.jar;C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\effective-codecs\codecs\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt-launch\1.5.3\sbt-launch-1.5.3.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="coursier.mainJar" value="C:\Users\User\null\Coursier\data\bin\sbt.bat"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/London"/><property name="coursier.main.arg-0" value="test"/><property name="os.name" value="Windows 10"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="GB"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\User"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="C:\Users\User\.sbt\1.0"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="prog.dir" value="C:\\Users\\User\\null\\Coursier\\data\\bin\"/><property name="os.version" value="10.0"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="sbt-launch.version" value="1.5.3"/><property name="user.dir" value="C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\effective-codecs\codecs"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.11+9-LTS-194"/><property name="java.class.version" value="55.0"/>
+"/><property name="sun.stdout.encoding" value="cp850"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.11+9-LTS-194"/><property name="user.name" value="User"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\User\AppData\Local\Temp\jna-2645995\jna4395545815681934130.dll"/><property name="java.vendor.version" value="18.9"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/><property name="java.version" value="11.0.11"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="sun.os.patch.level" value=""/><property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\Libraries\null\Coursier\data\bin;C:\Users\User\null\Coursier\cache\jvm\adopt@1.8.0-292\bin;C:\Users\User\null\Coursier\data\bin;C:\Users\User\null\Coursier\cache\v1\https\github.com\sbt\sbt\releases\download\v1.5.3\sbt-1.5.3.zip\sbt;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.2\bin;;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\ProgramData\User\GitHubDesktop\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;."/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="windows"/><property name="java.class.path" value="C:\Users\User\null\Coursier\data\bin\sbt.bat;C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\effective-codecs\codecs\null\Coursier\cache\v1\https\repo1.maven.org\maven2\io\get-coursier\sbt\sbt-runner\0.2.0\sbt-runner-0.2.0.jar;C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\effective-codecs\codecs\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt-launch\1.5.3\sbt-launch-1.5.3.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="coursier.mainJar" value="C:\Users\User\null\Coursier\data\bin\sbt.bat"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/London"/><property name="coursier.main.arg-0" value="test"/><property name="os.name" value="Windows 10"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="GB"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\User"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="C:\Users\User\.sbt\1.0"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="prog.dir" value="C:\\Users\\User\\null\\Coursier\\data\\bin\"/><property name="os.version" value="10.0"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="sbt-launch.version" value="1.5.3"/><property name="user.dir" value="C:\Users\User\Documents\Effective_Programming_Scala_Course\Effective_Programming_Scala\effective-codecs\codecs"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.11+9-LTS-194"/><property name="java.class.version" value="55.0"/>
     </properties>
-                     <testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode the 'Unit' value (0pts)" time="0.253">
+                     <testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode the 'Unit' value (0pts)" time="0.478">
                                                  
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'Int' values (1pt)" time="0.021">
-                                                 <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found.
-	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
-	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
-	at codecs.CodecsSuite.$init$$$anonfun$2(CodecsSuite.scala:39)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="the 'Int' decoder should reject invalid 'Int' values (2pts)" time="0.002">
-                                                 <failure message="java.lang.AssertionError: No given decoder could be found" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: No given decoder could be found
-	at codecs.DecoderFallbackInstance.decoderSentinel(CodecsSuite.scala:122)
-	at codecs.DecoderFallbackInstance.decoderSentinel$(CodecsSuite.scala:119)
-	at codecs.CodecsSuite.decoderSentinel(CodecsSuite.scala:8)
-	at codecs.CodecsSuite.$init$$$anonfun$3(CodecsSuite.scala:43)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'String' value should be encoded as a JSON string (1pt)" time="0.007">
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'Int' values (1pt)" time="0.036">
                                                  
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'String' values (1pt)" time="0.013">
-                                                 <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found.
-	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
-	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
-	at codecs.CodecsSuite.$init$$$anonfun$5(CodecsSuite.scala:52)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'Boolean' value should be encoded as a JSON boolean (1pt)" time="0.004">
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="the 'Int' decoder should reject invalid 'Int' values (2pts)" time="0.004">
                                                  
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'Boolean' values (1pt)" time="0.004">
-                                                 <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found.
-	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
-	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
-	at codecs.CodecsSuite.$init$$$anonfun$7(CodecsSuite.scala:62)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'List[A]' value should be encoded as a JSON array (0pts)" time="0.011">
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'String' value should be encoded as a JSON string (1pt)" time="0.004">
                                                  
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode lists (5pts)" time="0.007">
-                                                 <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: java.lang.AssertionError: No given decoder could be found.
-	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
-	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
-	at codecs.CodecsSuite.$init$$$anonfun$9(CodecsSuite.scala:72)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'String' values (1pt)" time="0.042">
+                                                 
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'Boolean' value should be encoded as a JSON boolean (1pt)" time="0.002">
+                                                 
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode 'Boolean' values (1pt)" time="0.018">
+                                                 
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'List[A]' value should be encoded as a JSON array (0pts)" time="0.006">
+                                                 
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode lists (5pts)" time="0.09">
+                                                 
                                                </testcase><testcase classname="codecs.CodecsSuite" name="A JSON array with at least one invalid element should be rejected (2pt)" time="0.003">
-                                                 <failure message="java.lang.AssertionError: No given decoder could be found" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: No given decoder could be found
-	at codecs.DecoderFallbackInstance.decoderSentinel(CodecsSuite.scala:122)
-	at codecs.DecoderFallbackInstance.decoderSentinel$(CodecsSuite.scala:119)
-	at codecs.CodecsSuite.decoderSentinel(CodecsSuite.scala:8)
-	at codecs.CodecsSuite.$init$$$anonfun$10(CodecsSuite.scala:77)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'Person' value should be encoded as a JSON object (1pt)" time="0.018">
                                                  
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode people (4pts)" time="0.006">
-                                                 <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing.
-	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
-	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
-	at codecs.CodecsSuite.$init$$$anonfun$12(CodecsSuite.scala:89)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'Contacts' value should be encoded as a JSON object (1pt)" time="0.002">
-                                                 <failure message="scala.NotImplementedError: an implementation is missing" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: scala.NotImplementedError: an implementation is missing
-	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:345)
-	at codecs.ContactsCodecs.given_Encoder_Contacts(Codecs.scala:259)
-	at codecs.ContactsCodecs.given_Encoder_Contacts$(Codecs.scala:253)
-	at codecs.CodecsSuite.given_Encoder_Contacts(CodecsSuite.scala:8)
-	at codecs.CodecsSuite.$init$$$anonfun$13(CodecsSuite.scala:97)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
-                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode contacts (4pts)" time="0.007">
-                                                 <failure message="java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing." type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: An exception was thrown during property evaluation: scala.NotImplementedError: an implementation is missing.
-	at codecs.CodecsSuite.fail$1(CodecsSuite.scala:18)
-	at codecs.CodecsSuite.checkProperty(CodecsSuite.scala:23)
-	at codecs.CodecsSuite.$init$$$anonfun$14(CodecsSuite.scala:103)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-</failure>
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'Person' value should be encoded as a JSON object (1pt)" time="0.022">
+                                                 
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode people (4pts)" time="0.063">
+                                                 
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="a 'Contacts' value should be encoded as a JSON object (1pt)" time="0.012">
+                                                 
+                                               </testcase><testcase classname="codecs.CodecsSuite" name="it is possible to encode and decode contacts (4pts)" time="0.152">
+                                                 
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>
                      <system-err><![CDATA[]]></system-err>

@@ -206,6 +206,11 @@ trait DecoderInstances:
 
   /** A decoder for `Boolean` values */
   // TODO Define a given instance of type `Decoder[Boolean]`
+  given booleanDecoder: Decoder[Boolean] = 
+    Decoder.fromPartialFunction{
+      case Json.Bool(bool:Boolean) => bool
+    }
+
 
   /**
     * A decoder for JSON arrays. It decodes each item of the array
@@ -223,17 +228,42 @@ trait DecoderInstances:
     * previous elements could be successfully decoded, otherwise it
     * should return `None`.
     */
-  given listDecoder[A](using decoder: Decoder[A]): Decoder[List[A]] =
-    Decoder.fromFunction {
-      ???
+
+
+  //Firstly, writing a function to check if JSON array -> decode
+
+  def checkToDecodeList[A](listJson: List[Json])(using decoder: Decoder[A]):Option[List[A]] =
+    listJson.foldLeft(Some(List.empty[A]):Option[List[A]]){
+      (acc,current) =>
+        val decoded = decoder.decode(current) 
+        //Check if previous element not decoded
+        if (decoded == None || acc == None) then None
+        //If not empty, and add the decoded ccurrent alement to the list of JSON decoded elements.
+        //First element to decode is Some() empty list of A
+        else 
+          Some(acc.getOrElse(List.empty[A])++decoded)
     }
+
+
+
+  given listDecoder[A](using decoder: Decoder[A]): Decoder[List[A]] =
+    Decoder.fromPartialFunction {
+      case Json.Arr(lst) if !checkToDecodeList[A](lst).isEmpty => checkToDecodeList[A](lst).get
+  }
+    
 
   /**
     * A decoder for JSON objects. It decodes the value of a field of
     * the supplied `name` using the given `decoder`.
     */
   def field[A](name: String)(using decoder: Decoder[A]): Decoder[A] =
-    ???
+    Decoder.fromFunction{
+      f => f match
+        //If json objet exists, find value for the input name and then decode it. Have to use flatMap
+        //as the values for each 'name' are JSON objects
+        case Json.Obj(f) => f.get(name).flatMap(k=> decoder.decode(k))
+        case _  => None
+    }
 
 end DecoderInstances
 
@@ -251,7 +281,9 @@ trait PersonCodecs:
 
   /** The corresponding decoder for `Person` */
   given Decoder[Person] =
-    ???
+    Decoder.field[String]("name")
+    .zip(Decoder.field[Int]("age"))
+    .transform[Person](p => Person(p._1,p._2))
 
 end PersonCodecs
 
@@ -265,11 +297,13 @@ trait ContactsCodecs:
   // The JSON representation of a value of type `Contacts` should be
   // a JSON object with a single field named “people” containing an
   // array of values of type `Person` (reuse the `Person` codecs)
-  given Encoder[Contacts] = ???
+  given Encoder[Contacts] = ObjectEncoder.field[List[Person]]("people")
+  .transform[Contacts](cont => cont.people)
   // ... then implement the decoder
 
+  given Decoder[Contacts] = Decoder.field[List[Person]]("people").transform[Contacts](ls => Contacts(ls))
 end ContactsCodecs
-
+  
 // In case you want to try your code, here is a simple `Main`
 // that can be used as a starting point. Otherwise, you can use
 // the REPL (use the `console` sbt task).
