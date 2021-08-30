@@ -22,6 +22,7 @@ final class Wikigraph(client: Wikipedia):
     */
   def namedLinks(of: ArticleId): WikiResult[Set[String]] =
     ???
+    //flatMap on the the links Ids of the client. se traverse on the wiki results
 
   /**
     * Computes the distance between two articles using breadth first search.

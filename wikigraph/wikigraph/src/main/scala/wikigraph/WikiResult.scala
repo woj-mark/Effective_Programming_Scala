@@ -57,6 +57,7 @@ case class WikiResult[A](value: Future[Either[Seq[WikiError], A]]):
     */
   def map[B](f: A => B)(using ExecutionContext): WikiResult[B] =
     ???
+    //use map over the WikiResult.value and apply the function f to the Right of the Either, the A
 
   /**
     * Use the result of this computation as an input for another asynchronous
@@ -70,6 +71,7 @@ case class WikiResult[A](value: Future[Either[Seq[WikiError], A]]):
   def flatMap[B](f: A => WikiResult[B])(using ExecutionContext): WikiResult[B] = 
     val futureB: Future[Either[Seq[WikiError], B]] = value.flatMap {
       ???
+      //Pattern matching: a) left-> future.successful, b) right -> perform f on it
     }
     WikiResult(futureB)
 
@@ -88,6 +90,8 @@ case class WikiResult[A](value: Future[Either[Seq[WikiError], A]]):
     WikiResult(this.value.flatMap { thisEither =>
       that.value.map { thatEither =>
         zipEithersAcc(thisEither, thatEither)
+
+        //Add a helped function ZipEitherAc to extract the result, propagate error
       }
     })
 
@@ -142,5 +146,6 @@ object WikiResult:
     */
   def traverse[A, B](as: Seq[A])(f: A => WikiResult[B])(using ExecutionContext): WikiResult[Seq[B]] =
     ???
+    //Use foldLeft 
 
 end WikiResult

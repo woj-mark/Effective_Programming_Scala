@@ -25,6 +25,8 @@ class Titles(tag: Tag) extends Table[Title](tag, "titles"):
   val title = column[String]("title")
   val * = (articleId, title) <> ((id, title) => Title(id, title), title => Some((title.articleId, title.title)))
 
+
+  //Note: how to run SQL query functionally
 class Sqlite extends Wikipedia:
   private val db = Database.forConfig("sqlite")
   private val edges = TableQuery(Edges(_))
