@@ -56,7 +56,12 @@ case class WikiResult[A](value: Future[Either[Seq[WikiError], A]]):
     * Hint: Both Either and Future have a similar method
     */
   def map[B](f: A => B)(using ExecutionContext): WikiResult[B] =
-    ???
+    WikiResult(this.value.map{ valueEither => 
+      //the either that is mapped is represented as: Either[Seq[WikiError], A]]. Perform computation on the Right
+      valueEither match
+        case Left(wikiErr) => Left(wikiErr)
+        case Right(wikiValue) => Right(f(wikiValue))
+    })
     //use map over the WikiResult.value and apply the function f to the Right of the Either, the A
 
   /**
