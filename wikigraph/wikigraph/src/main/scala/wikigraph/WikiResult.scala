@@ -95,12 +95,15 @@ case class WikiResult[A](value: Future[Either[Seq[WikiError], A]]):
     */
   def zip[B](that: WikiResult[B])(using ExecutionContext): WikiResult[(A, B)] =
     def zipEithersAcc(a: Either[Seq[WikiError], A], b: Either[Seq[WikiError], B]): Either[Seq[WikiError], (A, B)] =
-      ???
+      (a,b) match
+        case (Right(a),Right(b)) => Right((a, b))
+        case (Right(_),Left(err)) => Left(err)
+        case (Left(err1),Left(err2)) => Left(err1 ++ err2) //Two separate names (err1,err2) to avoid duplicates
+        case (Left(err),Right(_)) => Left(err)
+
     WikiResult(this.value.flatMap { thisEither =>
       that.value.map { thatEither =>
         zipEithersAcc(thisEither, thatEither)
-
-        //Add a helped function ZipEitherAc to extract the result, propagate error
       }
     })
 
