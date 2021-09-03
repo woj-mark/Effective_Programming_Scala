@@ -57,7 +57,7 @@ case class WikiResult[A](value: Future[Either[Seq[WikiError], A]]):
     */
   def map[B](f: A => B)(using ExecutionContext): WikiResult[B] =
     WikiResult(this.value.map{ valueEither => 
-      //the either that is mapped is represented as: Either[Seq[WikiError], A]]. Perform computation on the Right
+      //the either that is mapped is represented as: Either[Seq[WikiError], A]]. Perform computation on the Right (succcess)
       valueEither match
         case Left(wikiErr) => Left(wikiErr)
         case Right(wikiValue) => Right(f(wikiValue))
@@ -68,6 +68,7 @@ case class WikiResult[A](value: Future[Either[Seq[WikiError], A]]):
     * Use the result of this computation as an input for another asynchronous
     * computation
     * 
+    * 
     * @param f the next computation to run
     * 
     * Hint: Future has a similar method. If the first computation fails, its
@@ -75,7 +76,10 @@ case class WikiResult[A](value: Future[Either[Seq[WikiError], A]]):
     */
   def flatMap[B](f: A => WikiResult[B])(using ExecutionContext): WikiResult[B] = 
     val futureB: Future[Either[Seq[WikiError], B]] = value.flatMap {
-      ???
+      futureValue => futureValue match
+        case Left(err) => Future.successful[Either[Seq[WikiError], B]](Left(err)) //propagate error
+        case Right(wikiValue) => f(wikiValue).value
+    
       //Pattern matching: a) left-> future.successful, b) right -> perform f on it
     }
     WikiResult(futureB)
