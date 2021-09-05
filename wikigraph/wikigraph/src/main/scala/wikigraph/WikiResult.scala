@@ -157,7 +157,11 @@ object WikiResult:
     * empty, return a successful empty sequence.
     */
   def traverse[A, B](as: Seq[A])(f: A => WikiResult[B])(using ExecutionContext): WikiResult[Seq[B]] =
-    ???
+
+     val transList = ls.map(f)
+
+    //Use fold left to 
+
     //Use foldLeft 
 
 end WikiResult
