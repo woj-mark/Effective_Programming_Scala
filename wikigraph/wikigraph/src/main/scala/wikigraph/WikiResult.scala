@@ -158,11 +158,7 @@ object WikiResult:
     */
   def traverse[A, B](as: Seq[A])(f: A => WikiResult[B])(using ExecutionContext): WikiResult[Seq[B]] =
     as.map(f).foldLeft(WikiResult.successful[Seq[B]](Seq.empty[B]))((accum, current) => 
-      accum.zip(current.map(Seq(_))).map(e => e._1 ++ e._2))
-    
-
-    //Use fold left to 
-
-    //Use foldLeft 
+      accum.zip(current.map(Seq(_))).map(s => s._1 ++ s._2))
+  
 
 end WikiResult
